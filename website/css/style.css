@@ -54,6 +54,10 @@
      background:#de6f42;
 }
 
+ .orange-bg a:hover{
+     color:#fff!important;
+}
+
 .nav-tabs li.active{
      border-radius: 4px 4px 0 0;
 }
