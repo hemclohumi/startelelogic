@@ -1,0 +1,390 @@
+ 
+/*common css*/
+ body{
+     color:#0a0a0a;
+     position: relative;
+     font-size: 16px;
+}
+ h2{
+     text-transform: uppercase;
+     margin-top: 0!important;
+}
+ li a {
+     font-size: 18px;
+     color:#0a0a0a;
+}
+ a:focus, a:hover {
+     color: #de6f42!important;
+}
+ p{
+     font-size: 16px;
+     line-height: 27px;
+}
+ .mt2{
+     margin-top: 20px;
+}
+ .pt3{
+     padding-top: 30px;
+}
+ .pl2{
+     padding-left: 20px;
+}
+ .mb3{
+     margin-bottom: 30px;
+}
+ .tab-content{
+     min-height: 300px;
+}
+ .sub-header .blue-bg, .sub-header .orange-bg{
+     padding: 5px;
+}
+ .sub-header [class*="col-md-"] {
+     padding: 0!important;
+}
+/*colors*/
+ .blue-bg {
+     background: #2373ab;
+     color: #fff;
+}
+ .blue-bg a, .orange-bg a, .orange-bg a:hover, .orange-bg i{
+     color: #fff;
+}
+
+ .orange-bg, .nav-tabs li.active, .btn-secondary{
+     background:#de6f42;
+}
+
+.nav-tabs li.active{
+     border-radius: 4px 4px 0 0;
+}
+
+ .bg-gray-lighter{
+     background:#f9f8f8;
+}
+ .text-seconday{
+     color:#de6f42;
+}
+ .bg-black{
+     background: #000;
+}
+.text-white{
+     color: #fff;
+}
+ .box-md{
+     height: 200px 
+}
+ .client-images-container{
+     background-image: url('../images/client-bg.jpeg');
+     background-repeat: no-repeat !important;
+     background-size: cover !important;
+     background-position: bottom left;
+     height: 240px;
+}
+ .client-images li{
+     margin-right: 40px;
+     display: inline-block;
+}
+ .intro-bg-container {
+     position: relative;
+     overflow: hidden;
+     height: 500px;
+}
+ .carousel {
+     height: 500px;
+}
+ .carousel-caption, .carousel-control {
+     text-shadow: none;
+     top: 20%;
+     bottom: 0;
+}
+ div.carousel-caption h2 {
+     font-size: 3em;
+}
+ .carousel-caption p {
+     color: #fff;
+}
+ .carousel-caption h2{
+     color: #fff;
+     text-align: left;
+     text-shadow:none;
+}
+ div.carousel-caption h2{
+     font-size: 50px;
+     line-height: 55px;
+     letter-spacing: 0px;
+}
+ .item .carousel-caption {
+     text-shadow: none!important;
+     text-align: left;
+}
+ .carousel-caption {
+     top: 10%;
+}
+ .carousel-inner {
+     height: 500px;
+}
+ .carousel-caption .btn {
+     text-transform: uppercase;
+}
+ .carousel-indicators .active {
+     background-color: #de6e42!important;
+     border: 1px #de6e42 solid;
+}
+/*buttons*/
+ .btn.btn-warning{
+     color: #fff;
+     background-color: #de6e42;
+     border-color: #de6e42;
+}
+ .btn.no-bg-btn{
+     background-color: transparent!important;
+     border-color: #fff;
+}
+ .btn.no-bg-btn:hover {
+     background-color: #de6e42!important;
+     border-color: #de6e42;
+}
+ button.btn-warning:hover {
+     color: #fff;
+     background-color: #000;
+     border-color: #333;
+}
+ .overlay {
+     background: #000;
+     opacity: .6;
+     position: absolute;
+}
+ .overlay-full{
+     background: #000;
+     opacity: .6;
+     position: absolute;
+     top: 0;
+     z-index: 2;
+}
+/*navigation*/
+ .navbar-fixed-top .nav li a {
+     line-height: 40px;
+}
+ .navbar-fixed-top .nav li a {
+     padding-left: 20px;
+     padding-right: 20px;
+}
+ .navbar-default{
+     margin-top: 30px;
+}
+ .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+     color: #fff!important;
+     cursor: default;
+     background-color: #de6e42!important;
+     border: 1px solid #de6e42!important;
+     border-bottom-color: transparent;
+}
+/*flyout menu*/
+ .sub-menus{
+     height: 100%;
+     width: 0;
+     position: fixed;
+     z-index: 3;
+     top: 0;
+     right: 0;
+     background-color: #fff;
+     overflow-x: hidden;
+     transition: 0.2s;
+     padding: 20px 0;
+}
+ .sub-menus h3, .sub-menus ul{
+     padding: 0 0 0 30px;
+     margin:0;
+}
+ .sub-menus> ul > li {
+     list-style: none;
+     padding: 1em 0!important;
+}
+ .sub-menus> ul > li a {
+     color: #0a0a0a;
+     font-size: 18px;
+}
+ .sub-menus> ul > li a:hover {
+     color: #de6f42;
+     text-decoration: none;
+}
+/* Position and style the close button (top right corner) */
+ .closebtn {
+     position: absolute;
+     right:1%;
+     color: #2373ab;
+}
+ .closebtn:hover{
+     color: #de6f42;
+}
+/*footer*/
+ .footer {
+     color: #fff;
+     background-color: #212121;
+     padding: 20px;
+     border-top: 1px #ddd solid;
+}
+ .footer ul{
+     padding: 0;
+     margin: 10px 0;
+}
+ .footer li {
+     list-style: none;
+     margin-bottom: 5px;
+}
+ .footer li a, .tc a, .footer p a{
+     color: #a2a2a2;
+     text-decoration: underline;
+     padding: 5px 5px 5px 0;
+}
+ .footer li a:hover,.footer p a:hover, .tc a:hover{
+     text-decoration: none;
+     color: #fff;
+}
+ .footer strong{
+     font-size:18px;
+     margin-bottom: 20px;
+}
+ .footer p{
+     color: #fff;
+}
+ .sub-footer {
+     padding: 10px 0;
+     background-color: #303030;
+     color: #fff;
+}
+ .sub-footer a{
+     margin-right: 10px;
+     color: #fff;
+}
+ .sub-footer a:hover{
+     color: #fff;
+     text-decoration: underline;
+}
+ button.circular-btn{
+    font-size: 16px;
+    line-height: 56px;
+    letter-spacing: 1px;
+    padding: 0px 35px;
+    text-transform: uppercase;
+}
+ .social-link-container{
+     border:1px #ddd solid;
+     border-radius: 2px;
+     padding: 4px 0;
+     display: inline-block;
+     margin-bottom: 0;
+}
+ .social-link-container li{
+     margin-bottom: 0;
+     display: inline-block;
+     color: #fff;
+     padding: 4px;
+     border-right: 1px #ddd solid;
+     width: 40px;
+}
+ .social-link-container li a{
+     color: #fff;
+}
+ .social-link-container li a:hover:before, .social-link-container li a:before {
+     opacity: 0;
+     border-left: transparent;
+}
+ .social-link-container .social-link:last-child{
+     border-right: none;
+}
+ .social-link-container li:hover a i{
+     color: #de6e42;
+}
+
+/* Global Button Styles */
+ button.animated-button:link, button.animated-button:visited {
+     position: relative;
+     margin: 30px auto 0;
+     padding: 14px 15px;
+     color: #fff;
+     font-size:14px;
+     font-weight: bold;
+     text-align: center;
+     text-decoration: none;
+     text-transform: uppercase;
+     overflow: hidden;
+     letter-spacing: .08em;
+     border-radius: 0;
+     text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+     -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+     -o-transition: all 1s ease;
+     transition: all 1s ease;
+}
+ button.animated-button:link:after, button.animated-button:visited:after {
+     content: "";
+     position: absolute;
+     height: 0%;
+     left: 50%;
+     top: 50%;
+     width: 150%;
+     z-index: -1;
+     -webkit-transition: all 0.75s ease 0s;
+     -moz-transition: all 0.75s ease 0s;
+     -o-transition: all 0.75s ease 0s;
+     transition: all 0.75s ease 0s;
+}
+ button.animated-button:link:hover, button.animated-button:visited:hover {
+     color: #FFF;
+     text-shadow: none;
+}
+ button.animated-button:link:hover:after, button.animated-button:visited:hover:after {
+     height: 450%;
+}
+ button.animated-button:link, button.animated-button:visited {
+     position: relative;
+     margin: 30px auto 0;
+     padding: 14px 15px;
+     color: #fff;
+     font-size:14px;
+     border-radius: 0;
+     font-weight: bold;
+     text-align: center;
+     text-decoration: none;
+     text-transform: uppercase;
+     overflow: hidden;
+     letter-spacing: .08em;
+     text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+     -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+     -o-transition: all 1s ease;
+     transition: all 1s ease;
+}
+ button.animated-button.thar-three {
+     color: #fff;
+     cursor: pointer;
+     position: relative;
+     border: 1px solid #dd6d42;
+     transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+     0s;
+}
+ button.animated-button.thar-three:hover {
+     color: #fff !important;
+     background-color: transparent;
+     text-shadow: nthree;
+}
+ button.animated-button.thar-three:hover:before {
+     left: 0%;
+     right: auto;
+     width: 100%;
+}
+ button.animated-button.thar-three:before {
+     position: absolute;
+     top: 0px;
+     right: 0px;
+     height: 100%;
+     width: 0px;
+     z-index: -1;
+     content: '';
+     color: #000 !important;
+     background: #dd6d42;
+     transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+     0s;
+}
+ 
